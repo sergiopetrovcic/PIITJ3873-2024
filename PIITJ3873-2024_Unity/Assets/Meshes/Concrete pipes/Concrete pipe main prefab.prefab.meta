@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 75c6747acc5e1804eaad9a30a1887d64
+labels:
+- Concrete
+- Construction
+- Environment
+- Pipe
+- Props
+- Rough
+- Tube
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13277
+  packageName: Concrete Pipes Pack
+  packageVersion: 1.0
+  assetPath: Assets/Meshes/Concrete pipes/Concrete pipe main prefab.prefab
+  uploadId: 208
