@@ -1,0 +1,22 @@
+# Maps how to
+
+Free site do open shapefiles online and convert to 8 different formats: https://mapshaper.org/
+
+## Shapefile sources
+
+https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/arquivos.html
+
+https://geo.fbds.org.br/SC/ITAJAI/HIDROGRAFIA/
+
+Para o rio Itajaí-Açú, tem o arquivo RIOS_DUPLOS
+
+# Qgis
+
+No QGIS, abrir shapefile. Ir no menu Raster > Converter > Converter vetor para raster (rasterizar)
+
+* Esclher a layer
+* Unidades pixal
+* Colocar Resolução Horizontal e Vertical (sugiro upscale) múltiplo de 1024.
+* Nodata 255
+
+
