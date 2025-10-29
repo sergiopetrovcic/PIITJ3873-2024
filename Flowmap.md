@@ -56,7 +56,7 @@ Minhas observações: sRGB desabilitado e compression None
 | -------------------------- | ------------------------------------ |
 | (  0,  0,  0) | X+ (amarelo) |
 | (  0,128,  0) | X+ (amarelo) |
-| (  0,  0,128) | X+Z-- (vermelho) |
+| (  0,  0,128) | X+Z--- (vermelho) |
 | (  0,128,128) | Z+ (verde claro) |
 | (  0,255,  0) | X+ (amarelo) |
 | (  0,  0,255) | X-Z- (verde escuro) |
@@ -68,18 +68,18 @@ Minhas observações: sRGB desabilitado e compression None
 | (128,  0,128) | X+Z-- (vermelho) |
 | (128,128,128) | Z+ (verde claro) |
 | (128,255,  0) | X+ (amarelo) |
-| (128,  0,255) | X-Z- (verde escuro) |
-| (128,255,255) | X-Z+ (verde) |
-| (128,255,128) | X+Z+ (verde) |
-| (128,128,255) | X- (verde forte) |
+| (128,  0,255) | Z- (vermelho) |
+| (128,255,255) | Z+ (verde claro) |
+| (128,255,128) | X++Z++ (verde claro) |
+| (128,128,255) | X++Z++ (verde claro) |
 | (255,  0,  0) | X+ (amarelo) |
 | (255,128,  0) | X+ (amarelo) |
-| (255,  0,128) | X+Z-- (vermelho) |
-| (255,128,128) | Z+ (verde claro) |
+| (255,  0,128) | X+Z- (vermelho) |
+| (255,128,128) | X+ (amarelo) |
 | (255,255,  0) | X+ (amarelo) |
-| (255,  0,255) | X-Z- (verde escuro) |
-| (255,255,255) | X-Z+ (verde) |
-| (255,255,128) | X+Z+ (verde) |
-| (255,128,255) | X- (verde forte) |
+| (255,  0,255) | X++Z-- (verde escuro) |
+| (255,255,255) | X++Z++ (verde) |
+| (255,255,128) | X+++Z+ (verde) |
+| (255,128,255) | X+ (amarelo) |
 
 
