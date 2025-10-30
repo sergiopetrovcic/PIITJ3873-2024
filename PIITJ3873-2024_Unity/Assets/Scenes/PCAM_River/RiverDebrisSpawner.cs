@@ -96,6 +96,17 @@ public class RiverDebrisSpawner : MonoBehaviour
         float scale = manager.RandRange(config.sizeRange);
         go.transform.localScale = Vector3.one * scale;
 
+        // --- CONTADORES / REGISTRO ---
+        string typeId = prefab != null ? prefab.name : "Unknown";
+
+        // 1) marca que spawnou este tipo
+        if (DebrisRegistry.Instance != null)
+            DebrisRegistry.Instance.RegisterSpawn(typeId);
+
+        // 2) adiciona o ciclo de vida p/ contar ativos e destruídos
+        var life = go.AddComponent<DebrisLifecycle>();
+        life.typeId = typeId;
+
         // 9) adiciona floater e passa parâmetros globais
         //var floater = go.AddComponent<RiverDebrisFloater>();
         //floater.currentSpeed = manager.globalCurrentSpeed;
