@@ -38,7 +38,7 @@ public class FloatingIceberg : MonoBehaviour
             Reset();
         }
         
-        if  (selfRotationSpeed > 0)
+        if  (selfRotationSpeed != 0)
         {
             Vector3 r = this.transform.localEulerAngles;
             r.y += selfRotationSpeed;
